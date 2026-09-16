@@ -7,6 +7,10 @@ export const projects = [
     title: "VOICE2SIGN",
     subtitle: "Intelligent Speech & Sign Language Translation System",
 
+    // Add your Voice2Sign image here
+    coverImage: "/v2s.jpg",
+    images: ["/v2s.jpg"],
+
     description:
       "An accessibility-focused communication platform supporting both Voice → Sign and Sign → Voice interaction using speech processing, hand tracking and modern web technologies.",
 
@@ -50,6 +54,10 @@ export const projects = [
     title: "RILAX TILES",
     subtitle: "Premium Architectural Surfaces Experience",
 
+    // Add your RILAX images here later
+    coverImage: "/Rilax Tiles.png",
+    images: ["/Rilax Tiles.png"],
+
     description:
       "A premium product-focused web experience for architectural surfaces, combining responsive layouts, product exploration, comparison features and polished motion interactions.",
 
@@ -92,6 +100,10 @@ export const projects = [
     title: "TASK MANAGEMENT SYSTEM",
     subtitle: "Role-Based Project & Task Management Platform",
 
+    // Add your Task Management images later
+    coverImage: "/Task Management.png",
+    images: ["/Task Management.png"],
+
     description:
       "A full-stack task management platform with authentication, role-based access, project management, task assignment, status tracking and dashboard metrics.",
 
@@ -122,38 +134,46 @@ export const projects = [
   },
 
   {
-    id: "weather-app",
-    featured: false,
+    id: "student-management",
     number: "04",
-    category: "Frontend • JavaScript • API Integration",
-    title: "WEATHER FORECAST",
-    subtitle: "Responsive Weather Forecast Web Application",
+    featured: true,
+
+    category: "Full Stack Development",
+
+    title: "Student Management System",
+
+    subtitle: "A centralized platform for student and academic administration.",
+
+    // Student Management screenshot you sent
+    coverImage: "/student management.png",
+
+    images: ["/student management.png"],
 
     description:
-      "A responsive weather application that retrieves weather information from an external API based on user-provided location input.",
-
-    technologies: ["HTML5", "CSS3", "JavaScript", "Fetch API"],
+      "A full-stack student management application designed to organize student records, manage departments, maintain attendance and support academic administration through a centralized dashboard.",
 
     highlights: [
-      "External API integration",
-      "Location-based search",
-      "Responsive interface",
-      "Dynamic weather data",
+      "Student Records Management",
+      "Department Management",
+      "Attendance Tracking",
+      "Admin Dashboard",
     ],
 
+    technologies: ["React", "Laravel", "PHP", "MySQL", "REST API"],
+
     objective:
-      "To build a simple and responsive web application for retrieving and presenting weather information through an external API.",
+      "To develop a centralized application for managing student information and academic records with an organized and user-friendly interface.",
 
     features: [
-      "Location search",
-      "Weather API integration",
-      "Dynamic data rendering",
-      "Responsive UI",
-      "User-friendly weather presentation",
+      "Student registration and profile management",
+      "Department and course organization",
+      "Attendance management",
+      "Administrative dashboard",
+      "Database-backed student records",
+      "Frontend and backend API integration",
     ],
 
     contribution:
-      "Developed the frontend interface, integrated the weather API using Fetch API and implemented dynamic weather data rendering with JavaScript.",
+      "Designed and developed the student management application, including frontend components, backend integration and database-driven academic management features.",
   },
-  
 ];
